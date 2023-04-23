@@ -7,7 +7,7 @@ init();
 function init() {
     runPrompts();
 }
-
+// This section is set up for the prompts that the user will select from.
 function runPrompts() {
     prompt([
         {
