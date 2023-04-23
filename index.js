@@ -103,7 +103,7 @@ function viewAllRoles() {
         .then(() => runPrompts());
 
     }
-
+// This section views all departments
 function viewAllDepartments() {
     db.allDepartments()
         .then(([rows]) => {
