@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS employees;
 CREATE DATABASE employees;
 
 USE employees;
-
+-- This section creates a "department" table with an auto-incrementing "id"
 CREATE TABLE department (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(50) UNIQUE NOT NULL
