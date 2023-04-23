@@ -51,7 +51,7 @@ function runPrompts() {
         }
     ]).then(res => {
         let choice = res.choice;
-
+        // Call the functions from what the user selects
         switch (choice) {
             case "VIEW_DEPARTMENTS":
                 viewAllDepartments();
