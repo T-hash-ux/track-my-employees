@@ -115,7 +115,7 @@ function viewAllDepartments() {
         .then(() => runPrompts());
        
 }
-
+//  This section adds a role
 function createRole() {
     db.allDepartments()
         .then(([rows]) => {
