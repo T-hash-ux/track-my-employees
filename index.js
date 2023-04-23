@@ -91,7 +91,7 @@ function viewAllEmployees() {
         .then(() => runPrompts());
 
 }
-
+// This section views all roles
 function viewAllRoles() {
     db.allRoles()
         .then(([rows]) => {
