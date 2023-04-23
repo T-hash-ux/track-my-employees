@@ -80,7 +80,7 @@ function runPrompts() {
         }
     })
 }
-
+// This section views all employees
 function viewAllEmployees() {
     db.allEmployees()
         .then(([rows]) => {
